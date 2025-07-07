@@ -40,8 +40,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="error"><?php echo $error; ?></div>
         <?php endif; ?>
         <form method="POST">
-            <input type="text" name="username" placeholder="Username" required><br>
-            <input type="password" name="password" placeholder="Password" required><br>
+            <input type="text" name="username" id="username" placeholder="Username" required><br>
+            <input type="password" name="password" id="username" placeholder="Password" required><br>
             <button type="submit">Login</button>
         </form>
     </div>
